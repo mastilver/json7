@@ -2,6 +2,11 @@
 
 > A better alternative of JSON
 
+## Features
+
+- is JSON compatible
+- handle Dates
+- handle circular references
 
 ## Install
 
