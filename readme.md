@@ -19,17 +19,17 @@ const a = {
     text: 'test',
     date: new Date(2016, 7, 4),
 };
-a[1] = a;
+a['obj'] = a;
 
 const json = json7.stringify(a);
 const b = json7.parse(json);
 
-console.log(b === b[1]); // => true
+console.log(b === b.obj); // => true
 console.log(b);
 /* => {
     text: 'test',
     date: Thu Aug 04 2016 00:00:00 GMT+0100 (GMT Summer Time),
-    a: {...}
+    obj: {...}
 }
 */  
 ```
