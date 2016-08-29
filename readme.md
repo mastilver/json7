@@ -6,7 +6,6 @@
 
 - is JSON compatible
 - handle Dates
-- handle circular references
 
 ## Install
 
